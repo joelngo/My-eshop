@@ -1,0 +1,8 @@
+{% for label, messages in app.flashes %}
+{% for mess<age in message %}
+
+<div class="alert alert-{{ label }} alert-dismissible fade show" role="alert">
+{% if label is same as 'success'%}
+   {% else %}
+<span class="alert-inner--icon"><i class="fa fa-thumbs-up"></i></span>
+   {% endif %}
