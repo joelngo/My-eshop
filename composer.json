@@ -82,10 +82,9 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
-        ],
-        "compile": [
-            "php bin/console doctrine:schema:update --force --no-intraction npm run"
         ]
+        
+        
     },
     "conflict": {
         "symfony/symfony": "*"
